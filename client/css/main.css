@@ -1,6 +1,7 @@
 body {
     background:white;
 }
+
 /* Blinking terminal icon after title */
 @keyframes blink {
     0% {opacity: 1;}
@@ -10,11 +11,34 @@ body {
 
 .command-icon {
     animation: blink 1s linear infinite;
+    font-size: 12.3px; /* Adjust this value to change the size of the icon */
+    font-weight:bold;
+
 }
 
 .command-box {
-    border: 2px solid #000;
-    padding: 10px;
-    width: 50px;
-    text-align: center;
+    border: 1.9px solid #000;
+    padding: 1.5px;
+    height: 0.38cm;
+    margin-left: -0.15cm;
+    margin-top: 0.10cm;
+    width: 12.5px; /* Adjust this value to change the size of the box */
 }
+/* Make both components appear next to each other */
+.title-container {
+    display: flex;
+    align-items: center;
+}
+.title {
+    margin-right: 10px;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+/* Navbar */
+.nav{
+    color: #000;
+    text-decoration: underline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+

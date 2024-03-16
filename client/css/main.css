@@ -33,7 +33,7 @@ body {
 
 }
 .nav a{
-    margin-top: -.82cm;
+    margin-top: -.84cm;
     font-size: 18.5px;
     margin-right: .8cm;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -50,19 +50,55 @@ body {
     background-color:#28313d;
     border-radius: 50%;
     display: inline-block;
-    margin-top: -.54cm;
+    margin-top: -.55cm;
     margin-left: -0.1cm;
     margin-right: 0.8cm;
 }
 .About{
     font-family: "Source Serif Pro", monospace, sans-serif;
-    font-size: 3.25rem;
-    font-weight:100;
-    margin-top: 0;
+    font-size: 3.21rem;
+    font-weight:220;
     margin-bottom: 96px;
     display: block;
-    margin: 3cm 5.1cm;
+    margin: 2cm 5.3cm;
 }
-
-
-
+.line{
+    width: 24.5cm;
+    margin-top: -1cm;
+    margin-left: 5.20cm;
+    color: #28313d;
+}
+.about-me{
+    height: 15cm;
+    display: flex;
+    flex-direction: row;
+    width: 69%;
+    /* background-color: blue; */
+    margin-top: 1.5cm;
+    margin-left: 5.4cm;
+}
+.container-img img{
+    background-color: rgb(218, 26, 58);
+    height: 10.2cm;
+    width: 7.2cm;
+    margin-left: -.20cm;
+    border-radius: 3%;
+}
+.container-text{
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    margin-top: -.2cm;
+    color: #28313d;
+    font-weight:400 ;
+    /* background-color: rgb(16, 173, 173); */
+    height: 15cm;
+    width: 74%;
+    line-height: 1.55;
+    margin-left: 0.3cm;
+}
+rt {
+    display: ruby-text;
+    font-size: 11px;
+    text-align: start;
+}

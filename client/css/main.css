@@ -1,6 +1,73 @@
 body {
-    background:white;
+    transition: background-color 0.5s ease;
 }
+
+body.light-mode {
+    background-color: white;
+    color: rgb(24, 23, 23);
+}
+
+body.dark-mode {
+    background-color: rgb(24, 23, 23);
+    color: white;
+}
+
+#theme-switcher {
+    background: none;
+    border: none;
+    font-size: 2cm;
+}
+
+#theme-switcher .fa-sun {
+    color: black;
+    font-size: 2.2cm;
+    margin-left: 27cm;
+    margin-top: -2cm;
+}
+body.light-mode .title a,
+body.light-mode .nav a,
+body.light-mode .container-text {
+    color: rgb(24, 23, 23);
+
+}
+
+body.dark-mode .title a,
+body.dark-mode .nav a,
+body.dark-mode .container-text {
+    color: white;
+}
+
+#theme-switcher .fa-moon {
+    color: #f1c40f;
+    font-size: 2.2cm;
+    margin-left: 27cm;
+    margin: -30cm 27cm;
+
+}
+    body.light-mode {
+        background-color: white;
+        color: rgb(24, 23, 23);
+    }
+
+    body.dark-mode {
+        background-color: black;
+        color: white;
+    }
+
+    #theme-switcher {
+        background: none;
+        border: none;
+        font-size: 1.5em;
+    }
+
+    #theme-switcher .fa-sun {
+        color: #f39c12;
+    }
+
+    #theme-switcher .fa-moon {
+        color: #f1c40f;
+    }
+
 
 /* Make both components appear next to each other */
 .title-container {
@@ -47,12 +114,19 @@ body {
 .dot {
     height: 5px;
     width: 5px;
-    background-color:#28313d;
     border-radius: 50%;
     display: inline-block;
     margin-top: -.55cm;
     margin-left: -0.1cm;
     margin-right: 0.8cm;
+}
+
+body.light-mode .dot {
+    background-color: #28313d;
+}
+
+body.dark-mode .dot {
+    background-color: white;
 }
 .About{
     font-family: "Source Serif Pro", monospace, sans-serif;
@@ -91,14 +165,23 @@ body {
     margin-top: -.2cm;
     color: #28313d;
     font-weight:400 ;
-    /* background-color: rgb(16, 173, 173); */
     height: 15cm;
     width: 74%;
     line-height: 1.55;
     margin-left: 0.3cm;
 }
+.container-text a{
+    color: #28313d;
+}
 rt {
     display: ruby-text;
     font-size: 11px;
     text-align: start;
+}
+body.light-mode .container-text a {
+    color: #28313d;
+}
+
+body.dark-mode .container-text a {
+    color: white;
 }

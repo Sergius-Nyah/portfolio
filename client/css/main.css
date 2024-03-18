@@ -19,13 +19,6 @@ body.dark-mode {
     position: absolute;
     margin-top: -3.8cm;
 }
-
-#theme-switcher .fa-sun {
-    color: black;
-    font-size: 2cm;
-    margin-left: 27cm;
-}
-
 body.light-mode .title a,
 body.light-mode .nav a,
 body.light-mode .container-text {
@@ -42,27 +35,13 @@ body.dark-mode .container-text {
     /* color: #f1c40f; */
     font-size: 1.7cm;
     margin-left: 27cm;
-
+    color:black;
 }
-    body.light-mode {
-        background-color: white;
-        color: rgb(24, 23, 23);
-    }
-
-    body.dark-mode {
-        background-color: black;
-        color: white;
-    }
-
-    #theme-switcher {
-        background: none;
-        border: none;
-        font-size: 1.5em;
-    }
-    #theme-switcher .fa-moon {
-        color: #f1c40f;
-    }
-
+#theme-switcher .fa-sun {
+    color: #f1c40f;
+    font-size: 2cm;
+    margin-left: 27cm;
+}
 
 /* Make both components appear next to each other */
 .title-container {
@@ -147,8 +126,7 @@ body.dark-mode .dot {
     margin-left: 5.4cm;
 }
 .container-img img{
-    background-color: rgb(218, 26, 58);
-    height: 10.2cm;
+    height: 8.6cm;
     width: 7.2cm;
     margin-left: -.20cm;
     border-radius: 3%;
@@ -168,6 +146,7 @@ body.dark-mode .dot {
 .container-text a{
     color: #28313d;
 }
+
 rt {
     display: ruby-text;
     font-size: 11px;

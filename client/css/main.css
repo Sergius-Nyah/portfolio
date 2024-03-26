@@ -21,12 +21,14 @@ body.dark-mode {
 }
 body.light-mode .title a,
 body.light-mode .nav a,
+body.light-mode .footer a,
 body.light-mode .container-text {
     color: rgb(24, 23, 23);
 }
 
 body.dark-mode .title a,
 body.dark-mode .nav a,
+body.dark-mode .footer a,
 body.dark-mode .container-text {
     color: white;
 }
@@ -64,6 +66,7 @@ body.dark-mode .container-text {
 .title a:hover{
     text-decoration: dashed underline;
 }
+
 /* Navbar */
 .nav{
     /* text-decoration: underline; */
@@ -222,3 +225,34 @@ color: black;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Footer */
+/* Heart shaped */
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a, .footer p {
+    display: inline-block;
+}
+
+.footer a {
+    color: #28313d;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 1.35rem;
+    margin-left: 5cm; /* Add margin to the right of the a element */
+}
+
+.footer a:hover{
+    text-decoration: dashed underline;
+}
+
+.footer p{
+    font-size: 1.14rem;
+    margin-left: 14.55cm; /* Add margin to the left of the p element */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
